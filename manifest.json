@@ -11,7 +11,7 @@
         "default_icon": "images/icon.png"
     },
     "content_scripts": [{
-        "matches": ["https://*.mysparkpay.com/store/admin/**"],
+        "matches": ["https://*/store/admin/*"],
 
         "js": [
             "lib/material-components-web.min.js",
