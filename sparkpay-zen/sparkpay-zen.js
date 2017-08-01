@@ -1,5 +1,15 @@
+var styleNode           = document.createElement ("style");
+    styleNode.type          = "text/css";
+    styleNode.textContent   = "@font-face { font-family: 'Material Icons'; src: url('"
+                            + chrome.extension.getURL ("lib/icons.woff2")
+                            + "') format('woff2'); }"
+                            ;
+    document.head.appendChild (styleNode);
 
 (function() {
+    
+
+
     'use strict';
     var toggleButton = `<button class="mdc-fab toggle-editor">
                             <i class="mdc-icon-toggle material-icons" role="button" aria-pressed="false" tabindex="0">

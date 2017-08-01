@@ -23,6 +23,11 @@
             "lib/material-components-web.min.css",
             "sparkpay-zen/sparkpay-zen.css"],
 
+
         "run_at": "document_end"
-    }]
+    }],
+    
+    "web_accessible_resources":[
+        "lib/*"
+    ]
 }
