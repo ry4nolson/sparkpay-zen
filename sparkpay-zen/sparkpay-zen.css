@@ -6,6 +6,12 @@
 .toggle-editor .material-icons { color: white; }
 
 
+/* Zen Theme Select
+**********************************************************/
+.zen-theme-select { display: none; }
+.fullpage-editor .zen-theme-select { display: block; position: fixed; top: 96px; right: 23px; left: inherit; width: 219px; margin-top: 0; z-index: 999999999; }
+.fullpage-editor .zen-theme-select option { background: white; }
+
 
 /* Full Page Editor (Zen Mode)
 **********************************************************/
@@ -33,18 +39,18 @@
 
 
 /* Editor Styley */
-.fullpage-editor #html-editor { overflow-y: scroll; background: white; position: fixed; top: 86px; right: 0; bottom: 0; left: 0; width: 100%; z-index: 200; }
+.fullpage-editor #html-editor { overflow-y: scroll; background: inherit; position: fixed; top: 86px; right: 0; bottom: 0; left: 0; width: 100%; z-index: 200; }
 .fullpage-editor .ac-setting-group { width: 100%; height: 100%; overflow: auto; padding: 0; margin: 0; }
 .fullpage-editor .CodeMirror-scroll { overflow: hidden !important; }
-.fullpage-editor .CodeMirror-linenumber { background: white; }
-.fullpage-editor .CodeMirror-linenumber:after { z-index: -1; background: white; display: block; content: ""; width: 8px; height: 20px; position: absolute; left: 100%; top: 0; }
-.fullpage-editor .CodeMirror-code > div { background: white; }
+.fullpage-editor .CodeMirror-linenumber { background: inherit; }
+.fullpage-editor .CodeMirror-linenumber:after { z-index: -1; background: inherit; display: block; content: ""; width: 8px; height: 20px; position: absolute; left: 100%; top: 0; }
+.fullpage-editor .CodeMirror-code > div { background: inherit; }
 .fullpage-editor .CodeMirror-hscrollbar { display: none !important; }
 
 
 
 /* Code Wrapping (disabled) */
-.fullpage-editor .CodeMirror-wrap { padding-right: 3rem;  }
+.fullpage-editor .CodeMirror-wrap { padding: 0 3rem 2rem 0; }
 .fullpage-editor .CodeMirror-wrap pre { white-space: nowrap; padding-left: 1rem; }
 
 
